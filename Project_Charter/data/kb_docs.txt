@@ -1,0 +1,74 @@
+### SYS_ERR_DEVICE_TIMEOUT
+**Description:** The device failed to acknowledge a keep‑alive or command within the configured timeout period. 
+**Likely Causes:** High CPU, network congestion, or firmware bug. 
+**Recommended Actions:** 
+  1. Verify device CPU %, memory, and interface statistics. 
+  2. Increase timeout threshold temporarily. 
+  3. Check for firmware updates.
+**Related Logs:** CPU_HIGH_UTIL, INTERFACE_DOWN.
+
+### FW_DROP_INVALID_PKT
+**Description:** Stateful firewall dropped a packet that did not match existing connection table and failed RFC compliance checks. 
+**Likely Causes:** Malformed packet, possible intrusion attempt, asymmetric routing. 
+**Recommended Actions:** 
+  1. Capture packets to validate header fields. 
+  2. Confirm routing symmetry between interfaces. 
+  3. Review IPS signatures.
+
+### ROUTING_LOOP_DETECTED
+**Description:** TTL expired in transit indicating a potential routing loop. 
+**Likely Causes:** Incorrect route advertisements, split horizon issues. 
+**Recommended Actions:** 
+  1. Trace route path to locate looping nodes. 
+  2. Review BGP/OSPF configurations for conflicting metrics.
+
+### INTERFACE_DOWN
+**Description:** Physical or logical interface transitioned to DOWN state. 
+**Likely Causes:** Cable unplugged, admin shutdown, hardware failure. 
+**Recommended Actions:** 
+  1. Check physical connectivity. 
+  2. Verify interface configuration. 
+  3. Run diagnostics on transceivers.
+
+### BGP_PEER_RESET
+**Description:** BGP neighbor session unexpectedly reset. 
+**Likely Causes:** Keep‑alive timeout, firewall blocking TCP 179, max prefix limit exceeded. 
+**Recommended Actions:** 
+  1. Validate neighbor timers and state. 
+  2. Inspect firewall rules. 
+  3. Check prefix count policies.
+
+### CPU_HIGH_UTIL
+**Description:** Device CPU utilization exceeded 90% for more than 60 seconds. 
+**Likely Causes:** DDoS attack, routing process churn, insufficient hardware. 
+**Recommended Actions:** 
+  1. Identify top CPU processes. 
+  2. Apply rate‑limiting or hardware upgrade.
+
+### MEMORY_LEAK
+**Description:** Steady increase in memory usage by a process without release. 
+**Likely Causes:** Firmware bug, runaway logging. 
+**Recommended Actions:** 
+  1. Restart offending process. 
+  2. Patch firmware.
+
+### DHCP_IP_POOL_EXHAUSTED
+**Description:** DHCP server exhausted available IP addresses for a scope. 
+**Likely Causes:** Too few addresses, rogue devices. 
+**Recommended Actions:** 
+  1. Increase pool size. 
+  2. Identify and remove rogue devices.
+
+### TLS_HANDSHAKE_FAILURE
+**Description:** TLS handshake failed due to certificate or protocol mismatch. 
+**Likely Causes:** Expired certificate, cipher suite incompatibility. 
+**Recommended Actions:** 
+  1. Renew certificates. 
+  2. Update cipher suites.
+
+### NAT_TABLE_OVERFLOW
+**Description:** NAT translation table reached max capacity, new connections dropped. 
+**Likely Causes:** High connection churn, insufficient memory allocation. 
+**Recommended Actions:** 
+  1. Increase translation table size. 
+  2. Enable connection timeout tuning.
