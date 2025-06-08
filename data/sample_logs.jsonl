@@ -1,0 +1,50 @@
+{"timestamp": "2025-06-01T09:00:00", "device_id": "sw02", "severity": "WARN", "error_code": "TLS_HANDSHAKE_FAILURE", "message": "TLS handshake failed due to certificate mismatch."}
+{"timestamp": "2025-06-01T09:00:37", "device_id": "rtr02", "severity": "CRIT", "error_code": "MEMORY_LEAK", "message": "Process exhibiting memory leak detected."}
+{"timestamp": "2025-06-01T09:01:14", "device_id": "fw01", "severity": "WARN", "error_code": "MEMORY_LEAK", "message": "Process exhibiting memory leak detected."}
+{"timestamp": "2025-06-01T09:01:51", "device_id": "sw02", "severity": "INFO", "error_code": "INTERFACE_DOWN", "message": "Network interface is administratively down."}
+{"timestamp": "2025-06-01T09:02:28", "device_id": "fw01", "severity": "ERROR", "error_code": "SYS_ERR_DEVICE_TIMEOUT", "message": "Device did not respond within expected timeout window."}
+{"timestamp": "2025-06-01T09:03:05", "device_id": "rtr01", "severity": "ERROR", "error_code": "TLS_HANDSHAKE_FAILURE", "message": "TLS handshake failed due to certificate mismatch."}
+{"timestamp": "2025-06-01T09:03:42", "device_id": "sw01", "severity": "INFO", "error_code": "ROUTING_LOOP_DETECTED", "message": "Potential routing loop identified via TTL expiration."}
+{"timestamp": "2025-06-01T09:04:19", "device_id": "sw01", "severity": "ERROR", "error_code": "NAT_TABLE_OVERFLOW", "message": "NAT translation table reached maximum capacity."}
+{"timestamp": "2025-06-01T09:04:56", "device_id": "fw02", "severity": "INFO", "error_code": "SYS_ERR_DEVICE_TIMEOUT", "message": "Device did not respond within expected timeout window."}
+{"timestamp": "2025-06-01T09:05:33", "device_id": "rtr02", "severity": "CRIT", "error_code": "BGP_PEER_RESET", "message": "BGP peer session has been reset by remote host."}
+{"timestamp": "2025-06-01T09:06:10", "device_id": "fw02", "severity": "ERROR", "error_code": "DHCP_IP_POOL_EXHAUSTED", "message": "DHCP server has no available IP addresses."}
+{"timestamp": "2025-06-01T09:06:47", "device_id": "sw02", "severity": "CRIT", "error_code": "CPU_HIGH_UTIL", "message": "CPU utilization exceeded 90% threshold."}
+{"timestamp": "2025-06-01T09:07:24", "device_id": "fw01", "severity": "WARN", "error_code": "CPU_HIGH_UTIL", "message": "CPU utilization exceeded 90% threshold."}
+{"timestamp": "2025-06-01T09:08:01", "device_id": "rtr01", "severity": "ERROR", "error_code": "MEMORY_LEAK", "message": "Process exhibiting memory leak detected."}
+{"timestamp": "2025-06-01T09:08:38", "device_id": "fw02", "severity": "CRIT", "error_code": "BGP_PEER_RESET", "message": "BGP peer session has been reset by remote host."}
+{"timestamp": "2025-06-01T09:09:15", "device_id": "sw01", "severity": "ERROR", "error_code": "DHCP_IP_POOL_EXHAUSTED", "message": "DHCP server has no available IP addresses."}
+{"timestamp": "2025-06-01T09:09:52", "device_id": "sw02", "severity": "INFO", "error_code": "ROUTING_LOOP_DETECTED", "message": "Potential routing loop identified via TTL expiration."}
+{"timestamp": "2025-06-01T09:10:29", "device_id": "fw01", "severity": "CRIT", "error_code": "ROUTING_LOOP_DETECTED", "message": "Potential routing loop identified via TTL expiration."}
+{"timestamp": "2025-06-01T09:11:06", "device_id": "fw02", "severity": "WARN", "error_code": "CPU_HIGH_UTIL", "message": "CPU utilization exceeded 90% threshold."}
+{"timestamp": "2025-06-01T09:11:43", "device_id": "rtr01", "severity": "CRIT", "error_code": "MEMORY_LEAK", "message": "Process exhibiting memory leak detected."}
+{"timestamp": "2025-06-01T09:12:20", "device_id": "fw01", "severity": "ERROR", "error_code": "FW_DROP_INVALID_PKT", "message": "Firewall dropped packet that failed validation."}
+{"timestamp": "2025-06-01T09:12:57", "device_id": "sw01", "severity": "INFO", "error_code": "NAT_TABLE_OVERFLOW", "message": "NAT translation table reached maximum capacity."}
+{"timestamp": "2025-06-01T09:13:34", "device_id": "rtr01", "severity": "WARN", "error_code": "TLS_HANDSHAKE_FAILURE", "message": "TLS handshake failed due to certificate mismatch."}
+{"timestamp": "2025-06-01T09:14:11", "device_id": "rtr01", "severity": "CRIT", "error_code": "INTERFACE_DOWN", "message": "Network interface is administratively down."}
+{"timestamp": "2025-06-01T09:14:48", "device_id": "sw01", "severity": "WARN", "error_code": "INTERFACE_DOWN", "message": "Network interface is administratively down."}
+{"timestamp": "2025-06-01T09:15:25", "device_id": "fw02", "severity": "INFO", "error_code": "NAT_TABLE_OVERFLOW", "message": "NAT translation table reached maximum capacity."}
+{"timestamp": "2025-06-01T09:16:02", "device_id": "sw02", "severity": "ERROR", "error_code": "SYS_ERR_DEVICE_TIMEOUT", "message": "Device did not respond within expected timeout window."}
+{"timestamp": "2025-06-01T09:16:39", "device_id": "sw01", "severity": "CRIT", "error_code": "TLS_HANDSHAKE_FAILURE", "message": "TLS handshake failed due to certificate mismatch."}
+{"timestamp": "2025-06-01T09:17:16", "device_id": "sw02", "severity": "CRIT", "error_code": "MEMORY_LEAK", "message": "Process exhibiting memory leak detected."}
+{"timestamp": "2025-06-01T09:17:53", "device_id": "fw02", "severity": "WARN", "error_code": "FW_DROP_INVALID_PKT", "message": "Firewall dropped packet that failed validation."}
+{"timestamp": "2025-06-01T09:18:30", "device_id": "rtr01", "severity": "INFO", "error_code": "NAT_TABLE_OVERFLOW", "message": "NAT translation table reached maximum capacity."}
+{"timestamp": "2025-06-01T09:19:07", "device_id": "sw01", "severity": "WARN", "error_code": "MEMORY_LEAK", "message": "Process exhibiting memory leak detected."}
+{"timestamp": "2025-06-01T09:19:44", "device_id": "sw02", "severity": "CRIT", "error_code": "FW_DROP_INVALID_PKT", "message": "Firewall dropped packet that failed validation."}
+{"timestamp": "2025-06-01T09:20:21", "device_id": "fw01", "severity": "WARN", "error_code": "SYS_ERR_DEVICE_TIMEOUT", "message": "Device did not respond within expected timeout window."}
+{"timestamp": "2025-06-01T09:20:58", "device_id": "rtr01", "severity": "CRIT", "error_code": "BGP_PEER_RESET", "message": "BGP peer session has been reset by remote host."}
+{"timestamp": "2025-06-01T09:21:35", "device_id": "rtr02", "severity": "WARN", "error_code": "SYS_ERR_DEVICE_TIMEOUT", "message": "Device did not respond within expected timeout window."}
+{"timestamp": "2025-06-01T09:22:12", "device_id": "sw01", "severity": "WARN", "error_code": "TLS_HANDSHAKE_FAILURE", "message": "TLS handshake failed due to certificate mismatch."}
+{"timestamp": "2025-06-01T09:22:49", "device_id": "fw02", "severity": "CRIT", "error_code": "ROUTING_LOOP_DETECTED", "message": "Potential routing loop identified via TTL expiration."}
+{"timestamp": "2025-06-01T09:23:26", "device_id": "fw01", "severity": "WARN", "error_code": "BGP_PEER_RESET", "message": "BGP peer session has been reset by remote host."}
+{"timestamp": "2025-06-01T09:24:03", "device_id": "sw01", "severity": "ERROR", "error_code": "DHCP_IP_POOL_EXHAUSTED", "message": "DHCP server has no available IP addresses."}
+{"timestamp": "2025-06-01T09:24:40", "device_id": "fw01", "severity": "WARN", "error_code": "MEMORY_LEAK", "message": "Process exhibiting memory leak detected."}
+{"timestamp": "2025-06-01T09:25:17", "device_id": "sw01", "severity": "ERROR", "error_code": "CPU_HIGH_UTIL", "message": "CPU utilization exceeded 90% threshold."}
+{"timestamp": "2025-06-01T09:25:54", "device_id": "fw02", "severity": "INFO", "error_code": "ROUTING_LOOP_DETECTED", "message": "Potential routing loop identified via TTL expiration."}
+{"timestamp": "2025-06-01T09:26:31", "device_id": "sw01", "severity": "ERROR", "error_code": "CPU_HIGH_UTIL", "message": "CPU utilization exceeded 90% threshold."}
+{"timestamp": "2025-06-01T09:27:08", "device_id": "fw02", "severity": "ERROR", "error_code": "CPU_HIGH_UTIL", "message": "CPU utilization exceeded 90% threshold."}
+{"timestamp": "2025-06-01T09:27:45", "device_id": "fw02", "severity": "WARN", "error_code": "NAT_TABLE_OVERFLOW", "message": "NAT translation table reached maximum capacity."}
+{"timestamp": "2025-06-01T09:28:22", "device_id": "sw01", "severity": "ERROR", "error_code": "CPU_HIGH_UTIL", "message": "CPU utilization exceeded 90% threshold."}
+{"timestamp": "2025-06-01T09:28:59", "device_id": "rtr02", "severity": "CRIT", "error_code": "MEMORY_LEAK", "message": "Process exhibiting memory leak detected."}
+{"timestamp": "2025-06-01T09:29:36", "device_id": "rtr01", "severity": "WARN", "error_code": "MEMORY_LEAK", "message": "Process exhibiting memory leak detected."}
+{"timestamp": "2025-06-01T09:30:13", "device_id": "rtr01", "severity": "ERROR", "error_code": "SYS_ERR_DEVICE_TIMEOUT", "message": "Device did not respond within expected timeout window."}
