@@ -9,8 +9,8 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 
-DATA_DIR = Path(r"F:\Project_Charter\data")
-OUT_DIR  = Path(r"F:\Project_Charter\vector_store")
+DATA_DIR = Path(r"data")
+OUT_DIR  = Path(r"vector_store")
 OUT_DIR.mkdir(exist_ok=True)
 
 def load_docs():
