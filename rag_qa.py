@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
 # ─────────────── Configuration ───────────────
-VECTOR_DIR = Path(r"F:\Project_Charter\vector_store")
+VECTOR_DIR = Path(r"vector_store")
 EMBED_MODEL = "all-MiniLM-L6-v2"
 LLM_NAME    = "google/flan-t5-base"      # small, free, instruction-tuned
 TOP_K = 8                                # # retrieved chunks
