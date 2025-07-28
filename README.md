@@ -16,7 +16,7 @@ This project is a lightweight, production-ready Retrieval-Augmented Generation (
 - **HuggingFace Transformers** – for open LLMs and embeddings
 - **SentenceTransformers** – for chunk embedding
 - **FAISS** – for vector similarity search
-- **Streamlit ** – for UI frontend 
+- **Streamlit** – for UI frontend 
 
 ## Note
 Due to limited data and free model usage, the output might not be accurate.
